@@ -1,0 +1,161 @@
+.her-img{
+    background-image: url(../img/works/slider.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.her-tex{
+    justify-content: center;
+    height: 50%;
+}
+.her-img-pad{
+    height: 50%;
+}
+.box{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.gr{
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    filter: grayscale(0.6);
+}
+
+.gal-mod{
+    position: fixed;
+    z-index: 400;
+    top: 0;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#galModuno{
+    display: none;
+    -webkit-animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes inanim {
+    from {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+#galModdos{
+    display: none;
+    -webkit-animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+#galModtres{
+    display: none;
+    -webkit-animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+#galModcuat{
+    display: none;
+    -webkit-animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+#galModcinc{
+    display: none;
+    -webkit-animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+#galModseis{
+    display: none;
+    -webkit-animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+#galModsiet{
+    display: none;
+    -webkit-animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+#galModocho{
+    display: none;
+    -webkit-animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+#galModnuev{
+    display: none;
+    -webkit-animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+#galModdiez{
+    display: none;
+    -webkit-animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+#galModonc{
+    display: none;
+    -webkit-animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+#galModdoc{
+    display: none;
+    -webkit-animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+    /* Para moviles*/
+@media screen and (max-width:576px){
+    .work-hero{
+        height: 550px ;
+    }
+
+    .her-tex{
+        padding: 0px 20px;
+    }
+    .mod{
+        width: 100%;
+        padding: 30px 10px;
+    }
+    .bot-mod{
+        margin-top: 20px;
+    }
+}
+/* Para tab */
+@media screen and (min-width:576px) and (max-width:992px){
+    .work-hero{
+        height: 924px;
+    }
+    .her-tex{
+        padding:0px 30px;
+    }
+    .mod{
+        width: 612px;
+        padding: 60px;
+    }
+    .bot-mod{
+        margin-top: 40px;
+    }
+}
+/* Para pc */
+@media screen and (min-width:992px){
+    .work-hero{
+        width: 100%;
+        height: 668px;
+    }
+
+    .her-tex{
+        padding:0px 240px;
+    }
+    .mod{
+        width: 762px;
+        padding: 50px 40px;
+    }
+    .bot-mod{
+        margin-top: 30px;
+    }
+}
+@media (hover:hover) {
+    .gr:hover{
+        filter: grayscale(0);
+        transform: scale(1.05);
+    }
+}

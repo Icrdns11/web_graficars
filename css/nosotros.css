@@ -1,0 +1,96 @@
+.clientes{
+    padding:40px 0px ;
+}
+.vm{
+    border-radius: 10px;
+}
+/* Para moviles*/
+@media screen and (max-width:576px){
+
+    .historia{
+        height: 550px;
+    }
+.his{
+        padding: 20px;
+    }
+   .vision{
+        margin: 15px 0px ;
+    }
+    .vm{
+        padding: 25px;
+        margin: 15px 10px;
+    }
+    .v{
+        padding: 50px 30px;
+    }
+    .vv{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .vl-ic{
+        width: 96px;
+    }
+    .cli-img{
+        margin-bottom: 20px;
+    }
+}
+/* Para tab */
+@media screen and (min-width:576px) and (max-width:992px){
+    .historia{
+        height: 924px;
+    }
+    .his{
+        padding:135px;
+    }
+    .vision{
+        margin: 10px 0px ;
+    }
+    .vm{
+        padding: 30px;
+        margin: 20px 10px;
+    }
+    .v{
+        padding: 60px 80px;
+    }
+    .vv{
+        margin-bottom: 20px;
+    }
+    .vl-ic{
+        width: 96px;
+    }
+    .cli-img{
+        margin-bottom: 60px;
+    }
+}
+/* Para pc */
+@media screen and (min-width:992px){
+    .historia{
+        width: 100%;
+        height: 668px;
+    }
+    .his{
+        padding:  0px 300px;
+    }
+    .vm{
+        padding: 60px;
+        margin: 30px 10px;
+    }
+    .v{
+        padding: 65px 50px;
+    }
+    .vv{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .vl-ic{
+        height: 96px;
+    }
+    .cli-img{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1068px){
+    .his{
+        padding:  0px 280px;
+    }
+}

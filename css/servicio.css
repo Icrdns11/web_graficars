@@ -1,0 +1,124 @@
+/* servicios img */
+.card-ser{
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.ser-he-im1{
+    margin: 0px 10px ;
+    background: url(../img/service/home/11.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 10px;
+    background-size: cover;
+
+}
+.ser-he-im2{
+    margin: 0px 10px ;
+    background: url(../img/service/home/22.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 10px;
+    background-size: cover;
+
+}
+.ser-he-im3{
+    margin: 0px 10px ;
+    background: url(../img/service/home/33.jpg);
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+
+}
+
+.ser-he-anim{
+    animation: hero 5s cubic-bezier(0,.28,.71,1) infinite alternate-reverse;
+}
+
+@keyframes hero {
+    from{
+        background-position: right;
+    }
+    to{
+        background-position: left;
+    }
+}
+
+/* Para moviles */
+@media screen and (max-width:576px){
+    .ser-her{
+        height: 550px ;
+    }
+    .ser-hero-uno{
+        padding:20px;
+    }
+    .ser-hero2{
+        height: 190px;
+    }
+    .ser{
+        width: 300px;
+    }
+    .service{
+        margin-top: 10px;
+    }
+    .card-ser{
+        padding: 20px;
+    }
+}
+/* Para tab */
+@media screen and (min-width:576px) and (max-width:992px){
+    .ser-her{
+        height: 924px;
+    }
+    .ser-hero-uno{
+        padding: 40px;
+    }
+    .ser-hero2{
+        height: 410px;
+    }
+    .ser{
+        width: 630px;
+    }
+    .service{
+        margin-top: 40px;
+    }
+    .card-ser{
+        padding: 50px 128px;
+    }
+
+}
+/* Para pc */
+@media screen and (min-width:992px){
+    .ser-her{
+        height: 665px;
+    }
+    .ser-hero-uno{
+        padding: 60px 240px;
+    }
+    .ser-hero2{
+        height: 345px;
+    }
+    .ser{
+        width: 980px;
+    }
+    .service{
+        margin-top: 30px;
+    }
+    .card-ser{
+        padding: 50px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1068px){
+    .card-ser{
+        padding: 50px 40px;
+    }
+}
+@media (hover:hover) {
+    .card-ser:hover{
+        transform: scale(1.05);
+    }
+}

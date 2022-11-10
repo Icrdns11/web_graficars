@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imprenta Offset La Paz | Graficar's</title>
+  <meta name="description" content="Imprenta Offset en la ciudad de La Paz, Bolivia. Ofrecemos los servicios de impresión offset, acabados, corte de papel y lo que necesites.">
+  <meta name="keywords" content="Imprenta en la paz, Imprenta la paz Bolivia, Imprenta en la paz, impresión en offset,
+Impresión offset, Impresiones offset">
+  <meta name="author" content="Ignacio Cardenas">
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+  emailjs.init('UgwipOgG1QChFHkTL')
+</script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQP6S6DWCM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQP6S6DWCM');
+</script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="shortcut icon" href="../../img/icons/ico/fav.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald:wght@600;700&display=swap"
+    rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/trabajos.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="fg">
+ <!--loader -->
+    <div id="loader">
+        <div class="">
+          <lottie-player src="../loader.json" style="width: 260px; height: 260px;"  loop autoplay></lottie-player>
+        </div>
+      </div>
+ <!-- nav-->
+  <header>
+    <div class="head container-xxl d-flex justify-content-between align-items-center h-100">
+      <div class="menu-h" data-aos="fade-down" data-aos-duration="1000">
+        <img src="../../img/icons/nav/menu.svg" alt="menu" class="close-mov" id="open-m">
+      </div>
+      <div data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+        <a href="../index.html"><img src="../../img/logo/logo.png" alt="Logotipo" class="d-none d-lg-block" width="150px"></a>
+        <a href="../index.html"><img src="../../img/logo/logotipo.svg" alt="Logotipo" class="d-none d-sm-block d-lg-none" width="200px"></a>
+        <a href="../index.html"><img src="../../img/logo/logotipo.svg" alt="Logotipo" class="d-block d-sm-none" width="170px"></a>
+      </div>
+      <div class="m-t-nav" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
+        <nav class="">
+          <ul class="d-flex menu-nav align-items-center">
+            <li><a href="../index.html" class="menu-link p" onmouseover="ocmenuPc()">Inicio</a></li>
+            <li><a href="#javascrip void(0)" class="menu-link p" onmouseover="menuPc()" onclick="menuPc()"
+                onmouseleave="ocflecha()">Servicios<svg id="flechamenu" class="Capa_1" data-name="Capa 1"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175.61 104.77">
+                  <polygon points="87.8 104.77 0 16.97 16.97 0 87.8 70.83 158.63 0 175.6 16.97 87.8 104.77" />
+                </svg></a></li>
+            <li><a href="./trabajos.html" class="menu-link p" onmouseover="ocmenuPc()">Trabajos</a></li>
+            <li><a href="./nosotros.html" class="menu-link p" onmouseover="ocmenuPc()">Nosotros</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="menu-cta" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">
+        <button class="cta-s" onclick="mosform()">Contacto</button>
+      </div>
+    </div>
+  </header>
+  <!-- menupc -->
+  <div id="menu-desp-pc" class="azuldg" onmouseleave="ocmenuPc()">
+    <div class="container-xxl d-flex align-items-center justify-content-center">
+      <div class="men-desp-pc-s">
+        <a href="./servicios.html" class="menu-desp-pc-a">
+          <h3 class="t-b smenu-link">Servicios</h3>
+        </a>
+      </div>
+      <nav class="men-desp-pc-l">
+        <ul class="d-flex flex-column p-0">
+          <li><a href="./impresion.html" class="smenu-link t-b pm-l">Impresión Offset</a></li>
+          <li class="mt20"><a href="./acabados.html" class="smenu-link t-b pm-l">Acabados</a></li>
+          <li><a href="./corte.html" class="smenu-link t-b pm-l">Corte</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- menumovil -->
+  <div id="menu-desp-tab">
+    <div class="azuldg d-flex flex-column menu-desp-tab justify-content-between">
+      <div class="d-flex flex-md-column justify-content-between align-items-md-center">
+        <img src="../../img/icons/nav/x-w.svg" alt="cerrar"
+          class="align-self-start align-self-md-end  close-mov order-2 order-md-1" id="close-m">
+        <img src="../../img/logo/white-lg.svg" alt="Logotipo" class="log-mov order-1 order-md-2">
+      </div>
+      <ul class="menu-movil-des p-0 m-0 w-100 text-center">
+        <li><a href="../index.html" class="pm t-b mlink lkm" onclick="mosiniciommenu()">Inicio</a></li>
+        <li><a href="#javascript void(0)" class="pm t-b mlink lkm m-0" id="ser-men-mov">Servicios<svg class="Capa_1"
+              data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175.61 104.77">
+              <polygon points="87.8 104.77 0 16.97 16.97 0 87.8 70.83 158.63 0 175.6 16.97 87.8 104.77"
+                style="fill: #ffffff;"/>
+            </svg>
+            <ul class="p-0 m-0" id="sub-me">
+              <li><a href="#javascrip void(0)" class="pm t-b mlink lkm m-0" id="cerrarmendesp">Servicios <span ><svg class="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175.6 104.77"><polygon points="87.8 0 175.6 87.8 158.63 104.77 87.8 33.94 16.97 104.77 0 87.8 87.8 0" style="fill:rgb(253, 253, 253)"/></svg></span>
+              <li><a href="./impresion.html" class="pm-l t-b mlink lkm-sub">Impresión Offset</a></li>
+              <li><a href="./acabados.html" class="pm-l t-b mlink lkm-sub">Acabados</a></li>
+              <li><a href="./corte.html" class="pm-l t-b mlink lkm-sub">Corte</a></li>
+            </ul>
+          </a></li>
+        <li><a href="./trabajos.html" class="pm t-b mlink lkm">Trabajos</a></li>
+        <li><a href="./nosotros.html" class="pm t-b mlink lkm">Nosotros</a></li>
+        <li><a href="#javascript void(0)" class="pm t-b mlink lkm-cont" onclick="mosformmenu()">Contacto</a></li>
+      </ul>
+      <div>
+        <div class="d-flex justify-content-center justify-content-center w-100">
+          <div class="d-flex ">
+            <a href="https://www.facebook.com/GraficarsLaPazImprenta" class="rss-h-m" target="_blank"><img
+                src="../../img/icons/rss/f-ft.svg" alt="facebook icono"></a>
+            <a href="https://www.facebook.com/GraficarsLaPazImprenta" class="pm mov-hd mlink text-light" target="_blank">Facebook</a>
+          </div>
+          <div class="d-flex ">
+            <a href="https://api.whatsapp.com/send?phone=59172536182" class="rss-h-m rss-h-m-dos" target="_blank"><img
+                src="../../img/icons/rss/w-ft.svg" alt="WhatsApp icono"></a>
+            <a href="https://api.whatsapp.com/send?phone=59172536182" class="pm mov-hd mlink text-light" target="_blank">WhatsApp</a>
+          </div>
+        </div>
+        <hr>
+        <p class="p text-center">Calle Otero de la Vega, Esquina Francisco Pizarro Nro 295, La Paz</p>
+      </div>
+    </div>
+  </div>
+  <a class="cta-movil" onclick="mosform()" id="iconocontact"><img src="../../img/icons/rss/mensaje.svg" alt="icono contacto" class="iconocontacto"></a>
+  <!-- miga -->
+  <div class=" bread">
+    <div class="container-xxl d-flex ">
+      <a href="../index.html" class="p mx-2 my-2 mx-sm-3 my-sm-2 mx-lg-3 my-lg-2 bread-a">Inicio</a>
+      <p class="p mx-2 my-2 mx-sm-3 my-sm-2 mx-lg-3 my-lg-2">></p>
+      <p class="p mx-2 my-2 mx-sm-3 my-sm-2 mx-lg-3 my-lg-2">Trabajos</p>
+    </div>
+  </div>
+  
+<!-- hero -->
+<section class="container-fluid mb-2 www">
+  <div class="work-hero">
+    <div class="d-flex justify-content-center align-items-center overflow-hidden her-img-pad">
+      <div class="her-img">
+      </div>
+    </div>
+    <div class="container-xxl d-flex flex-column align-items-center her-tex" data-aos="fade-up" data-aos-duration="1000">
+      <h2>Trabajos</h2>
+      <p class="pm">Compartimos nuestros últimos proyectos, demostrando nuestra excelencia creativa y profesionalismo.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- Galeria -->
+<div class="container-xxl">
+  <div class="row g-3">
+    <div class="col-12 col-sm-6 col-lg-4 box" data-aos="zoom-in">
+      <a href="javascript:void(0)" onclick="galeriamodaluno()">
+        <img src="../img/works/1.jpg" alt="libro" class="img-fluid gr">
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 box" data-aos="zoom-in">
+      <a href="javascript:void(0)" onclick="galeriamodaldos()">
+        <img src="../img/works/2.jpg" alt="folder" class="img-fluid gr">
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 box" data-aos="zoom-in">
+      <a href="javascript:void(0)" onclick="galeriamodaltres()">
+        <img src="../img/works/3.jpg" alt="volante" class="img-fluid gr">
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 box" data-aos="zoom-in">
+      <a href="javascript:void(0)" onclick="galeriamodalcuat()">
+        <img src="../img/works/4.jpg" alt="sobre" class="img-fluid gr">
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 box" data-aos="zoom-in">
+      <a href="javascript:void(0)" onclick="galeriamodalcinc()">
+        <img src="../img/works/5.jpg" alt="volante2" class="img-fluid gr">
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 box" data-aos="zoom-in">
+      <a href="javascript:void(0)" onclick="galeriamodalseis()">
+        <img src="../img/works/6.jpg" alt="certificado" class="img-fluid gr">
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 box" data-aos="zoom-in">
+      <a href="javascript:void(0)" onclick="galeriamodalsiet()">
+        <img src="../img/works/7.jpg" alt="sobre2" class="img-fluid gr">
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 box" data-aos="zoom-in">
+      <a href="javascript:void(0)" onclick="galeriamodalocho()">
+        <img src="../img/works/8.jpg" alt="etiqueta" class="img-fluid gr">
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 box" data-aos="zoom-in">
+      <a href="javascript:void(0)" onclick="galeriamodalnuev()">
+        <img src="../img/works/9.jpg" alt="volante3" class="img-fluid gr">
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 box" data-aos="zoom-in">
+      <a href="javascript:void(0)" onclick="galeriamodaldiez()">
+        <img src="../img/works/10.jpg" alt="etiqueta2" class="img-fluid gr">
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 box" data-aos="zoom-in">
+      <a href="javascript:void(0)" onclick="galeriamodalonc()">
+        <img src="../img/works/11.jpg" alt="volante4" class="img-fluid gr">
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 box" data-aos="zoom-in">
+      <a href="javascript:void(0)" onclick="galeriamodaldoc()">
+        <img src="../img/works/12.jpg" alt="volante5" class="img-fluid gr">
+      </a>
+    </div>
+  </div>
+</div>
+
+   <!-- contactos -->
+   <section class="container-xxl d-flex align-items-center flex-column" id="cont">
+    <h3 class="c-u"  data-aos="fade-up">Contactos</h3>
+    <div class="d-flex flex-wrap justify-content-center"  data-aos="fade-up">
+      <div class="d-flex align-items-center cont-rds">
+        <a href="https://www.facebook.com/GraficarsLaPazImprenta" target="_blank"><img src="../img/icons/rss/face.svg"
+            alt="facebook icono" class="rss-h ico"></a>
+        <a href="https://www.facebook.com/GraficarsLaPazImprenta" target="_blank" class="pm cont-text">Facebook</a>
+      </div>
+      <div class="d-flex align-items-center cont-rds">
+        <a href="https://api.whatsapp.com/send?phone=59172536182" target="_blank"><img src="../img/icons/rss/whats.svg"
+            alt="WhatsApp icono" class="rss-h ico"></a>
+        <a href="https://api.whatsapp.com/send?phone=59172536182" target="_blank" class="pm cont-text">WhatsApp</a>
+      </div>
+    </div>
+  </section>
+    <!-- mapa -->
+    <section class="www map">
+      <div class="d-flex flex-column align-items-center"  data-aos="fade-up">
+        <h3 class="c-u">Ubicación</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d956.3588951563138!2d-68.13552897072876!3d-16.504093213437883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f218995e129dd%3A0x5e3f7bdbf5b481a6!2sGraficar&#39;s%20Imprenta!5e0!3m2!1ses!2sbo!4v1663085122367!5m2!1ses!2sbo"
+          style="border:0;" allowfullscreen="active" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          class="w-100 container-fluid mpv"></iframe>
+        <div class="d-flex w-100 align-items-center justify-content-center px-3">
+          <img src="../img/icons/rss/map.svg" alt="" srcset="" class="ico-ft">
+          <p class="p m-1 mx-3">Calle Otero de la Vega, Esquina Francisco Pizarro Nro 295, La Paz</p>
+        </div>
+      </div>
+    </section>
+  <!-- pie -->
+  <footer>
+    <div class="container-xxl">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-12 col-lg-2 mb50">
+          <div class="d-flex justify-content-center ft-log">
+            <img src="../../img/logo/white-lg.svg" alt="logo" class="img-fluid" width="250px">
+          </div>
+        </div>
+        <ul
+          class="col-12 col-lg-6 text-center d-flex flex-column flex-sm-row align-items-center justify-content-evenly mb50 linkmovilfoteer">
+          <li class="d-block"><a href="../index.html" class="ft-link">Inicio</a></li>
+          <li class="d-block"><a href="./servicios.html" class="ft-link">Servicios</a></li>
+          <li class="d-block"><a href="./trabajos.html" class="ft-link">Trabajos</a></li>
+          <li class="d-block"><a href="./nosotros.html" class="ft-link">Nosotros</a></li>
+          <li class="d-block"><a href="#javascript void(0)" class="ft-link" onclick="mosform()">Contacto</a></li>
+        </ul>
+        <div class="col-12 col-lg-2 d-flex justify-content-center align-items-center mb50">
+          <div class="face p-2">
+            <a href="https://www.facebook.com/GraficarsLaPazImprenta" target="_blank"><img
+                src="../../img/icons/rss/f-ft.svg" alt="facebook icono" class="ico-ft"></a>
+          </div>
+          <div class="wp p-2">
+            <a href="https://api.whatsapp.com/send?phone=59172536182" target="_blank"><img
+                src="../../img/icons/rss/w-ft.svg" alt="WhatsApp icono" class="ico-ft"></a>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+        <p class="text-center ft-gris">Calle Otero de la Vega, Esquina Francisco Pizarro Nro 295, La Paz</p>
+        <hr class="text-center ft-gris">
+        <p class="text-center ft-gris">Copyright © 2022 Graficar's.</p>
+      </div>
+    </div>
+  </footer>
+  <!--Galeria modal -->
+<div id="galModuno">
+  <div class="vh-100 w-100 gal-mod">
+    <div class="mod">
+      <div class="d-flex justify-content-center">
+        <img src="../img/works/1.jpg" alt="libro" class="img-fluid mod-img">
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <button type="button" class="bot-sec-az bot-mod" aria-label="Close" onclick="cerrargaleriamodaluno()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="galModdos">
+  <div class="vh-100 w-100 gal-mod">
+    <div class="mod">
+      <div class="d-flex justify-content-center">
+        <img src="../img/works/2.jpg" alt="folder" class="img-fluid mod-img">
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <button type="button" class="bot-sec-az bot-mod" aria-label="Close" onclick="cerrargaleriamodaldos()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="galModtres">
+  <div class="vh-100 w-100 gal-mod">
+    <div class="mod">
+      <div class="d-flex justify-content-center">
+        <img src="../img/works/3.jpg" alt="volante" class="img-fluid mod-img">
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <button type="button" class="bot-sec-az bot-mod" aria-label="Close" onclick="cerrargaleriamodaltres()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="galModcuat">
+  <div class="vh-100 w-100 gal-mod">
+    <div class="mod">
+      <div class="d-flex justify-content-center">
+        <img src="../img/works/4.jpg" alt="sobre" class="img-fluid mod-img">
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <button type="button" class="bot-sec-az bot-mod" aria-label="Close" onclick="cerrargaleriamodalcuat()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="galModcinc">
+  <div class="vh-100 w-100 gal-mod">
+    <div class="mod">
+      <div class="d-flex justify-content-center">
+        <img src="../img/works/5.jpg" alt="volante" class="img-fluid mod-img">
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <button type="button" class="bot-sec-az bot-mod" aria-label="Close" onclick="cerrargaleriamodalcinc()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="galModseis">
+  <div class="vh-100 w-100 gal-mod">
+    <div class="mod">
+      <div class="d-flex justify-content-center">
+        <img src="../img/works/6.jpg" alt="certificado" class="img-fluid mod-img">
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <button type="button" class="bot-sec-az bot-mod" aria-label="Close" onclick="cerrargaleriamodalseis()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="galModsiet">
+  <div class="vh-100 w-100 gal-mod">
+    <div class="mod">
+      <div class="d-flex justify-content-center">
+        <img src="../img/works/7.jpg" alt="sobre" class="img-fluid mod-img">
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <button type="button" class="bot-sec-az bot-mod" aria-label="Close" onclick="cerrargaleriamodalsiet()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="galModocho">
+  <div class="vh-100 w-100 gal-mod">
+    <div class="mod">
+      <div class="d-flex justify-content-center">
+        <img src="../img/works/8.jpg" alt="etiqueta" class="img-fluid mod-img">
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <button type="button" class="bot-sec-az bot-mod" aria-label="Close" onclick="cerrargaleriamodalocho()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="galModnuev">
+  <div class="vh-100 w-100 gal-mod">
+    <div class="mod">
+      <div class="d-flex justify-content-center">
+        <img src="../img/works/9.jpg" alt="volante" class="img-fluid mod-img">
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <button type="button" class="bot-sec-az bot-mod" aria-label="Close" onclick="cerrargaleriamodalnuev()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="galModdiez">
+  <div class="vh-100 w-100 gal-mod">
+    <div class="mod">
+      <div class="d-flex justify-content-center">
+        <img src="../img/works/10.jpg" alt="etiqueta" class="img-fluid mod-img">
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <button type="button" class="bot-sec-az bot-mod" aria-label="Close" onclick="cerrargaleriamodaldiez()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="galModonc">
+  <div class="vh-100 w-100 gal-mod">
+    <div class="mod">
+      <div class="d-flex justify-content-center">
+        <img src="../img/works/11.jpg" alt="volante" class="img-fluid mod-img">
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <button type="button" class="bot-sec-az bot-mod" aria-label="Close" onclick="cerrargaleriamodalonc()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="galModdoc">
+  <div class="vh-100 w-100 gal-mod">
+    <div class="mod">
+      <div class="d-flex justify-content-center">
+        <img src="../img/works/12.jpg" alt="volante" class="img-fluid mod-img">
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <button type="button" class="bot-sec-az bot-mod" aria-label="Close" onclick="cerrargaleriamodaldoc()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- form -->
+<div id="formulario">
+    <div class="vh-100 w-100 back-form">
+      <div class="modf">
+        <div class="ctf">
+          <h2 class="text-center">Contacto</h2>
+          <div id="change">
+              <form id="form">
+                <div class="field">
+                  <label for="from_name" class="p cfp">Nombre:</label>
+                  <input for="name" placeholder="Escribe tu Nombre" class="form-input fit" type="text" name="from_name" id="from_name" required>
+                </div>
+                <div class="field">
+                  <label for="email_id" class="p cfp">Correo Electrónico:</label><br>
+                  <input type="email" placeholder="123@gmail.com" class="form-input fit" name="email_id" id="email_id" required>
+                </div>
+                <div class="field">
+                  <label for="message-text" class="p cfp">Mensaje:</label>
+                  <textarea class="text form-input fim" type="text" name="message" id="message" placeholder="Escribe tu mensaje" required></textarea>
+                </div>
+                <div class="d-flex justify-content-between justify-content-lg-end">
+                  <button type="button" class="bot-sec-az cl" onclick="ocform()">Cerrar</button>
+                  <button type="submit" class="cta" id="button" value="Send Email">Enviar</button>
+                </div>
+              </form>
+          </div>
+          <div id="mensaje-en" class=" flex-column align-items-center justify-content-center">
+              <p class="pm text-center mensaje-en">Su mensaje ha sido recibido</p>
+              <button type="button" class="bot-sec-az" onclick="ocform()">Cerrar Ventana</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="../js/script.js"></script>
+  <script>
+    AOS.init({
+      duration: 700,
+      easing: 'ease-in-out',
+      once: true,
+      mirror:true,
+    });
+  </script>
+</body>
+
+</html>

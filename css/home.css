@@ -1,0 +1,179 @@
+body{
+    background-color: #f4f4f4;
+}
+/* slider */
+#sliders{
+    position: relative;
+    z-index: 0;
+}
+.carousel-caption{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+}
+.carousel-control-next-icon{
+    background-image: url(../img/icons/nav/next.svg);
+}
+.carousel-control-prev-icon{
+    background-image: url(../img/icons/nav/back.svg);
+}
+.carousel-control-prev{
+    width: 80px;
+}
+.carousel-control-next{
+    width: 80px;
+}
+
+.slider-img{
+    filter: brightness(70%);
+-webkit-filter: brightness(70%);
+-moz-filter: brightness(70%);
+}
+.slider-img2{
+    filter: brightness(80%);
+-webkit-filter: brightness(80%);
+-moz-filter: brightness(80%);
+}
+.sli-bar{
+    width: 80px;
+}
+/* servicios */
+#serh{
+    margin-top: 50px;
+}
+.sc1{
+    background: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)) ,url(../img/service/home/11.jpg);
+    background-size: cover ;
+    background-position: center;
+
+}
+
+.sc2{
+    background: linear-gradient(rgba(28, 30, 63, 0.7), rgba(28, 30, 63, 0.7)) ,url(../img/service/home/22.jpg);
+    background-size:cover ;
+    background-position: center;
+}
+
+.sc3{
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)) ,url(../img/service/home/33.jpg);
+    background-size:cover ;
+    background-position: center;
+}
+
+.servicios-card{
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+}
+
+/* Hist-tra */
+#ht{
+    margin-top: 50px;
+}
+.his-tra{
+border-radius: 10px;
+transition: 0.3s ease-in-out;
+margin: 10px;
+}
+
+/* movil */
+@media screen and (max-width: 576px) {
+    .carousel-control-next-icon{
+        visibility: hidden;
+    }
+    .carousel-control-prev-icon{
+        visibility: hidden;
+    }
+    .carousel-caption{
+        padding: 0px 75px;
+    }
+    .sli-wi{
+        background-color: rgba(255, 255, 255, .7);
+    }
+    .sli-bl{
+        background: rgba(28, 30, 63, 0.5);
+    }
+    .servicios-card{
+        padding: 20px;
+        height: 450px;
+    }
+    #ht{
+        margin-top: 30px;
+    }
+    .his-tra{
+        padding: 40px 20px;
+    }
+    .service-img{
+        display: block;
+    }
+}
+/* Para tab */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .carousel-control-next-icon{
+        visibility: hidden;
+    }
+    .carousel-control-prev-icon{
+        visibility: hidden;
+    }
+    .carousel-caption{
+        padding: 0px 165px;
+    }
+    .sli-wi{
+        background-color: rgba(255, 255, 255, .7);
+    }
+    .sli-bl{
+        background: rgba(28, 30, 63, 0.5);
+    }
+    .his-tra{
+        width: 100%;
+    }
+    .bot-end{
+        margin-top: 322px;
+    }
+    .servicios-card{
+        padding: 30px;
+        height: 420px;
+    }
+    #ht{
+        margin-top: 30px;
+    }
+    .his-tra{
+        padding: 60px 130px;
+    }
+}
+/* pc */
+@media screen and (min-width: 992px) {
+    .carousel-caption{
+        padding: 0px 114px;
+    }
+    .carousel-caption{
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+
+    }
+
+    .servicios-card{
+        padding: 50px 10px;
+        height: 444px;
+    }
+    #ht{
+        margin-top: 50px;
+    }
+    .his-tra{
+        padding: 50px 80px;
+    }
+    .service-img{
+        display: block;
+    }
+}
+@media (hover:hover){
+    .servicios-card:hover{
+        transform: scale(1.04);
+    }
+    
+    .his-tra:hover{
+        transform: scale(1.05);
+    }
+}
