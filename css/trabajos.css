@@ -103,6 +103,11 @@
     -webkit-animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: inanim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+.text-gal{
+    background: linear-gradient(113.18deg, #1C1E3F 1.09%, #2F3269 100%);
+    padding: 10px;
+}
+
     /* Para moviles*/
 @media screen and (max-width:576px){
     .work-hero{
@@ -153,10 +158,26 @@
     .bot-mod{
         margin-top: 30px;
     }
+.text-gal{
+        background: linear-gradient(113.18deg, rgba(28, 30, 63, 0.4) 1.09%, rgba(47, 50, 105, 0.4) 100%);
+        padding: 10px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
 }
 @media (hover:hover) {
     .gr:hover{
         filter: grayscale(0);
         transform: scale(1.05);
     }
+}
+.mod-gal-img{
+    position: relative;
+}
+
+
+.gal-tex{
+    margin: 0 !important;
+    color: #ffffff;
 }
