@@ -6,6 +6,9 @@
 }
 .historia{
     background: linear-gradient(0deg, rgba(28, 30, 63, 0.8), rgba(28, 30, 63, 0.8)), url(../img/about/historia.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
 /* Para moviles*/
 @media screen and (max-width:576px){
