@@ -45,20 +45,20 @@ body{
     margin-top: 50px;
 }
 .sc1{
-    background: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)) ,url(../img/service/home/11.jpg);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, #FFFFFF 90.62%), url(../img/service/home/11.jpg);
     background-size: cover ;
     background-position: center;
 
 }
 
 .sc2{
-    background: linear-gradient(rgba(28, 30, 63, 0.7), rgba(28, 30, 63, 0.7)) ,url(../img/service/home/22.jpg);
+    background: linear-gradient(180deg, rgba(28, 30, 63, 0) 0%, #1C1E3F 90.62%), url(../img/service/home/22.jpg);
     background-size:cover ;
     background-position: center;
 }
 
 .sc3{
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)) ,url(../img/service/home/33.jpg);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, #FFFFFF 90.1%) ,url(../img/service/home/33.jpg);
     background-size:cover ;
     background-position: center;
 }
